@@ -10,13 +10,13 @@ GitHub is used to store the Data files codes in cloud based
   # Git Commands To store in repository
 - Command used to add a remote repository:
     - git remote add origin repo URL
-    - git remote add origin https://github.com/username/Reponame..git
-    - EX: https://github.com/swathi-T3/AssignmentGITHUBrepo..git
+    - git remote add origin https://github.com/username/Reponame.git
+    - EX: https://github.com/swathi-T3/AssignmentGITHUBrepo.git
 
 - Check if the remote repository is linked successfully:
     - git remote -v
-    - origin  https://github.com/username/Reponame..git (fetch)
-    - origin  https://github.com/username/Reponame..git (push)
+    - origin  https://github.com/username/Reponame.git (fetch)
+    - origin  https://github.com/username/Reponame.git (push)
 
 - Command to push your code to GitHub:
     - git push -u origin main
@@ -26,5 +26,35 @@ GitHub is used to store the Data files codes in cloud based
 
 - How can you view the changes in your GitHub repository?
     - By clicking on the "Commits" tab to see what was pushed.
-    - r click on specific files to view their current contents.
+    - or click on specific files to view their current contents.
+ 
+- Start a New Local Repository
+```git init```
+- Connect Local Repo to GitHub
+```git remote add origin https://github.com/your-username/your-repo-name.git```
+- Rename Current Branch to main
+```git branch -M main```
+- Check Status of Changes
+```git status```
+-  Stage Changes (Add to Staging Area)
+```
+git add .
+git add filename.extension
+```
+- Commit Staged Changes
+```git commit -m "Your commit message"```
+- Push Code to GitHub
+```
+git push -u origin main
+git push
+```
+- Pull Latest Code from GitHub
+```git pull origin main```
+- Clone a Repository from GitHub
+```git clone https://github.com/username/repo-name.git```
+- See Commit History
+```git log```
+- Undo All Local Changes - Dangerous
+```git reset --hard```
+
 
