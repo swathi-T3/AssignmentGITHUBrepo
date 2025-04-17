@@ -11,6 +11,7 @@ GitHub is used to store the Data files codes in cloud based
 - Command used to add a remote repository:
     - git remote add origin repo URL
     - git remote add origin https://github.com/username/Reponame..git
+    - EX: https://github.com/swathi-T3/AssignmentGITHUBrepo..git
 
 - Check if the remote repository is linked successfully:
     - git remote -v
